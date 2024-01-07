@@ -76,21 +76,28 @@ body{
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
-    /* width: 1320px; */
+    width: 1320px;
+    margin: auto;
     display: flex;
     text-align: center;
-    margin: 100px;
+    margin-bottom: 150px;
+    margin-top: 100px;
+    
+}
+.second-bannar-opacity{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    width: 1320px;
+    display: flex;
 }
 .second-bannar-containar{
-    padding: 125px 150px 300px 300px;
+    padding: 125px 0px 100px 100px;
     width: 600px;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
-    /* text-align: center; */
+    
 }
 .second-bannar-hed{
     color: #FFF;
     font-family: Merriweather;
-    font-size: 64px;
+    font-size: 50px;
     font-weight: 900;
     text-align: center;
     letter-spacing: 7.04px;
@@ -98,10 +105,9 @@ body{
     
 }
 .second-bannar-contant{
-    color: #FFF;
+    color:whitesmoke;
     font-family: Inter;
     font-size: 18px;
-    font-weight: 400;
     line-height: 30px;
     text-align: left;
     opacity: 0.5;
@@ -116,9 +122,10 @@ body{
     
 }
 .second-bannar-img{
-    padding: 80px 200px;
+    padding: 80px 200px; 
     display: flex;
     position:relative;
+     width: 200px;
 }
 /* second bannar end */
 
@@ -127,6 +134,8 @@ body{
 .join-now{
     width: 1320px;
     margin: auto;
+    margin-bottom: 200px;
+    border-radius: 20px;
    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 .join-details{
@@ -149,6 +158,58 @@ body{
 }
 /* jonin-details end */
 
+/* offer style start */
+
+.offer{
+    display: flex;
+    width: 1320px;
+    margin: auto;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+.offer-first{
+    width: 420px;
+    padding: 20px;
+    line-height: 10px;
+}
+.offer-first-title{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.offer-first-hed{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.offer-first-contant{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px
+}
+.offer-cercule{
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    border: 10px solid red;
+    padding: 10px;
+}
+.offer-image{
+    width: 390px;
+    height: 300px;
+    padding: 13px;
+}
+.offer-last{
+    width: 420px;
+    padding: 20px 0 0 50px;
+    
+}
+.offer-last-title{
+    color: #F00;
+    font-size: 40px;
+    font-weight: 900;
+}
 /* .our-portfolio start */
 
 .portfolio-section{
