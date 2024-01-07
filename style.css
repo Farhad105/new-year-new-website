@@ -193,6 +193,7 @@ body{
     background: rgba(255, 0, 0, 0.05);
     margin: auto;
     text-align: center;
+    margin-bottom: 100px;
 }
 .sub-sec{
     padding: 100px;
@@ -211,7 +212,7 @@ body{
     padding: 0 200px;
 }
 .search{
-    padding: 15px 30px;
+    padding: 15px 50px;
     border: none;
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
@@ -224,4 +225,55 @@ body{
     border-bottom-right-radius: 20px;
     background-color: red;
     color: #fff;
+}
+
+.foot-sec{
+    width: 1320px;
+    /* height: 600px; */
+    background: #070211;
+    margin: auto;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px
+}
+.fa{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    display: block;
+    line-height: 40px;
+}
+.footer-contact{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 120px 300px 80px 140px;
+}
+.footer-contact-righ{
+    color: #FFF;
+    font-size: 24px;
+}
+
+.social-icon{
+    text-align: center;
+    padding: 80px 400px;
+    
+}
+.social-icon a{
+    padding-right: 10px;
+}
+hr.new{
+    border-color: rgb(56, 55, 55);
+    width: 1050px;
+}
+.footer-last{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 300px 80px 140px;
 }
