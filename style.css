@@ -1,0 +1,90 @@
+body{
+    /* width:1400px;
+	margin:auto;
+	overflow:hidden;
+	background:#fff;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif; */
+
+}
+/* bannar start */
+.bannar{
+    width: 1320px;
+    height: 600px;
+    background-image: url("resources/Banner\ Image.png");
+    margin-top: 50px;
+    border-radius: 16px;
+    margin: auto;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+}
+.bannar-head{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding: 200px 340px 175px;
+}
+.bannar-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900
+}
+
+/* bannar end */
+
+/* parcentage-area start */
+
+.parcentage-area{
+    padding: 50px;
+}
+.percen-off{
+    color: #F00;
+    text-align: center;
+    font-size: 88px;
+    font-weight: 700;
+}
+.small-contant{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+.cotant-categori{
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+.images{
+   
+    text-align: center;
+    
+}
+
+/* parcentage-area end */
+
+/* second bannar start */
+
+.second-bannar{
+    background-image: url(resources/Vectorrr.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.second-bannar-hed{
+    /* color: #FFF; */
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    text-align: center;
+}
+.second-bannar-contant{
+
+}
+.btn{
+
+}
