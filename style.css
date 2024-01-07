@@ -7,6 +7,7 @@ body{
     font-family: 'Open Sans', sans-serif; */
 
 }
+
 /* bannar start */
 .bannar{
     width: 1320px;
@@ -15,7 +16,7 @@ body{
     margin-top: 50px;
     border-radius: 16px;
     margin: auto;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+   
 }
 .bannar-head{
     color: #FFF;
@@ -23,7 +24,8 @@ body{
     font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
-    padding: 200px 340px 175px;
+    padding: 150px 340px 175px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 }
 .bannar-title{
     color: #FFF;
@@ -74,17 +76,74 @@ body{
     height: 600px;
     background-repeat: no-repeat;
     background-position: center;
+    /* width: 1320px; */
+    display: flex;
+    text-align: center;
+    margin: 100px;
+}
+.second-bannar-containar{
+    padding: 125px 150px 300px 300px;
+    width: 600px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    /* text-align: center; */
 }
 .second-bannar-hed{
-    /* color: #FFF; */
+    color: #FFF;
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
     text-align: center;
+    letter-spacing: 7.04px;
+    text-align: left;
+    
 }
 .second-bannar-contant{
-
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    opacity: 0.5;
+    
 }
 .btn{
+    color: #FFF;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+.second-bannar-img{
+    padding: 80px 200px;
+    display: flex;
+    position:relative;
+}
+/* second bannar end */
 
+/* jonin-details start */
+
+.join-now{
+    width: 1320px;
+    margin: auto;
+   background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.join-details{
+    padding: 100px 385px;
+    text-align: center;
+    line-height: 45px;
+    color: #070211;
+
+}
+.color{
+    color: red;
+}
+.jonin-btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-weight: 400px;
 }
