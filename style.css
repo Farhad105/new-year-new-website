@@ -40,6 +40,7 @@ body{
 
 .parcentage-area{
     padding: 50px;
+    margin: auto;
 }
 .percen-off{
     color: #F00;
@@ -210,7 +211,9 @@ body{
     font-size: 40px;
     font-weight: 900;
 }
-/* .our-portfolio start */
+/* offer style end */
+
+/* portfolio style start */
 
 .portfolio-section{
     margin-top: 100px;
@@ -287,6 +290,7 @@ body{
     background-color: red;
     color: #fff;
 }
+ /* footer style start */
 
 .foot-sec{
     width: 1320px;
